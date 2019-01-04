@@ -1,0 +1,62 @@
+table{
+    border: 2px solid lavender;
+    background-color: lightblue;
+    font-size: 15px;
+}
+td{
+    border: 1px solid;
+}
+button{
+    font-size: 13px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    padding-bottom: 20px;
+    padding-left: 8px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+button:hover{
+    background-color: lemonchiffon;
+}
+#btn1{
+    height: 5px;
+    text-align: center;
+    padding-left: 4px;
+    padding-top: 2px;
+}
+#btn2{
+    height: 5px;
+    text-align: center;
+    padding-left: 4px;
+    padding-top: 2px;
+}
+#btn3{
+    height: 5px;
+    text-align: center;
+    padding-left: 4px;
+    padding-top: 2px;
+}
+#p1{
+    word-spacing: 17px;
+}
+#p2{
+    word-spacing: 97px;
+}
+#result{
+    text-align: right;
+    font-size: 20px;
+    font-weight: bold;
+}
+#number0{
+    width:100px;
+}
+#equal{
+    height: 100px;
+}
+#exit{
+    height: 5px;
+    text-align: center;
+    padding-left: 4px;
+    padding-top: 2px;
+}

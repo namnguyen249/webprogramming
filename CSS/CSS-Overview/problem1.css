@@ -1,0 +1,27 @@
+body{
+    background-color: darkslategray;
+}
+td{
+    color: aliceblue;
+}
+#ticket{
+    color: lightgoldenrodyellow;
+}
+#name{
+    color: lightgoldenrodyellow;
+}
+#active{
+    color: red;
+}
+#mail{
+    color: lightgoldenrodyellow;
+}
+#resTime{
+    color: lightcoral;
+}
+#lastAc{
+    color: lightcoral;
+}
+#ansWer{
+    color: orange;
+}
