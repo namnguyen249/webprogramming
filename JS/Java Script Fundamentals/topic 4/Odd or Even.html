@@ -1,0 +1,24 @@
+<html>
+
+<body>
+    <div>
+        <input type="number" name="numb" id="ip-numb">
+        <input type="button" value="check" onclick="check()">
+        <div id="result"></div>
+    </div>
+    <script>
+        function check() {
+            var input = document.getElementById("ip-numb").value;
+            if (input == 0)
+                alert("Please input your number");
+            else {
+                if (input % 2 != 0)
+                    document.getElementById("result").innerText = (input + " odd Number");
+                else
+                    document.getElementById("result").innerText = (input + " even Number");
+            }
+        }
+    </script>
+</body>
+
+</html>

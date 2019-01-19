@@ -1,0 +1,20 @@
+<html>
+
+<body>
+    <input type="text" id="numbInput">
+    <input type="button" value="Check" id="btnCheck" onclick="check()">
+    <div id="result"></div>
+    <script>
+        function check() {
+            var input = document.getElementById("numbInput").value;
+            if (input == 0)
+                alert("Please Input Your Number Below")
+            if (input % 7 == 0 && input % 5 == 0)
+                document.getElementById("result").innerText = ("true " + input);
+            else
+                document.getElementById("result").innerText = ("false " + input);
+        }
+    </script>
+</body>
+
+</html>

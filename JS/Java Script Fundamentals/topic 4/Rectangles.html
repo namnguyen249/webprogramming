@@ -1,0 +1,17 @@
+<html>
+    <body>
+        <input type="text" id="width">
+        <input type="text" id="height">
+        <input type="button" value="Calculate" onclick="calculate()">
+        <div id="result"></div>
+        <script>
+            function calculate(){
+                var width = document.getElementById("width").value;
+                var height = document.getElementById("height").value;
+                var perimeter = (+width + +height)*2;
+                var whitespace = width * height;
+                var result = document.getElementById("result").innerText = (whitespace + " " + perimeter);
+            }
+        </script>
+    </body>
+</html>
