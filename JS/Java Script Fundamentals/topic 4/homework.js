@@ -35,31 +35,53 @@ function greater(a, b) {
     else
         console.log(a + " " + b);
 }
-function biggestOfThree(a,b,c){
-    if(a>b && a>c){
+function biggestOfThree(a, b, c) {
+    if (a > b && a > c) {
         console.log(a);
-    }else{
-        if(b>a && b>c){
+    } else {
+        if (b > a && b > c) {
             console.log(b);
-        }else{
+        } else {
             console.log(c);
         }
     }
 }
-function sort3Number(a,b,c){
-    var points = [a,b,c];
-    points.sort(function(a,b){return(b-a)})
+function sort3Number(a, b, c) {
+    var points = [a, b, c];
+    points.sort(function (a, b) { return (b - a) })
     console.log(points);
 }
-function digitAsWord(a){
-    var numbers = [0,1,2,3,4,5,6,7,8,9];
-    var words = ["zero", "one" , "two", "three", "four", "five" , "six" , "seven" , "eight", "nine"];
-    for(var i =a; i<=numbers.length;i++){
-        if(a==numbers[i]){
+function digitAsWord(a) {
+    var numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
+    var words = ["zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"];
+    for (var i = a; i <= numbers.length; i++) {
+        if (a == numbers[i]) {
             console.log(words[i])
             break;
-        }else{
+        } else {
             console.log("not a digit");
         }
     }
+}
+function quadraticEqualation(a, b, c) {
+    let delta = Math.pow(b, 2) - 4 * a * c;
+    let x1, x2;
+
+    if (a != 0) {
+        if (delta > 0) {
+            x1 = ((-b) + Math.sqrt(delta)) / (2 * a);
+            x2 = ((-b) - Math.sqrt(delta)) / (2 * a);
+            console.log('x1 = ' + x1 + ',' + ' x2 = ' + x2);
+        } else if (delta == 0) {
+            x1 = (-b) / (2 * a);
+            console.log('x1 = x2 = '+ x1);
+        }else if (delta <0) {
+            console.log('no real roots');
+        }
+    }
+}
+function biggestOfFive(a,b,c,d,e){
+    let numbers = [a,b,c,d,e];
+    numbers.sort(function(a,b){return(b-a)});
+    console.log(numbers[0]);
 }
