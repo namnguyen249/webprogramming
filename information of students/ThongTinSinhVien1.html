@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+    crossorigin="anonymous"></script>
+  <script src="ThongTinSinhVien1.JS" type="text/javascript"></script>
+  <link href="ThongTinSinhVien1.CSS" rel="stylesheet">
+
+  <meta charset="UTF-8">
+  <title>Thông tin sinh viên</title>
+  <link href="ThongTinSinhVien1.CSS" rel="stylesheet">
+</head>
+
+<body>
+  <table style="width:100%" id="tableBoss">
+    <!- Tieu de -->
+
+    <tr>
+      <th colspan="2">
+        <h1 align="center">Thông Tin Sinh Viên</h1>
+      </th>
+    </tr>
+
+    <!-Input-->
+    <tr>
+      <th colspan="2" align="center">
+        <table class="tb1" id="idtb1">
+          <tr>
+            <th>Full Name</th>
+            <td><input id="boxFullName"></input></td>
+            <th></th>
+          </tr>
+          <tr>
+            <th>Student Code</th>
+            <td><input id="boxID"></input></td>
+          </tr>
+          <tr>
+            <th>Class</th>
+            <td><input id="boxClass"></input></td>
+          </tr>
+          <tr>
+            <th>Major</th>
+            <td><input id="boxMajor"></input></td>
+          </tr>
+          <tr>
+            <th>Address</th>
+            <td><input type="text" id="boxAddress"></td>
+          </tr>
+          <tr>
+            <th>Birthday</th>
+            <td><input id="boxBirthday" border-width="0" type="date"></input></td>
+          </tr>
+          <tr>
+            <th>Email</th>
+            <td><input id="boxEmail"></input></td>
+          </tr>
+        </table>
+      </th>
+    </tr>
+    <!-Button->
+    <tr>
+      <th align="right">
+        <button class="btn" id="idButtonTest" type="button" onclick="testStudent()">Test</button>
+      </th>
+      <th align="left">
+        <button class="btn" type="button" onclick="addStudent()">Add</button>
+      </th>
+
+    </tr>
+    <!-Output->
+    <tr>
+      <th colspan="2" align="center">
+        <table class="tb2" id="idtb2">
+          <tr>
+            <th width="2%"></th>
+            <th width="10%">Full Name</th>
+            <th width="8%">Student Code</th>
+            <th width="7%">Class</th>
+            <th width="10%">Major</th>
+            <th width="10%">Address</th>
+            <th width="18%">Age</th>
+            <th width="16%">Email</th>
+          </tr>
+        </table>
+      </th>
+    </tr>
+  </table>
+</body>
+
+</html>

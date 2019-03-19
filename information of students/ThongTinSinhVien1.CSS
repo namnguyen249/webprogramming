@@ -1,0 +1,54 @@
+
+.tb2{
+	width:100%;
+	border-collapse: collapse;
+	}
+.tb3{
+	width:40%;	
+}
+.btn{
+	width: 100px;
+	height: 30px;
+	margin: 4px auto;
+	font-size: 15px
+	}
+	
+tr{height: 20px;}
+
+hi{
+	font-family: 'Atomic Age';
+}
+
+td{
+	border: 2px solid #a7b5d1;
+	width: 250px;
+	}
+#tableBoss tr th #idtb1 tr th{
+	text-align: left;
+}
+#tableBoss tr th #idtb3 tr td{
+	width:200px;
+	text-align: center;
+	background-color: #dddddd;
+    color: white;
+	font-size:200%;
+}
+#tableBoss tr th #idtb2 tr:nth-child(even) {
+      background-color: #dddddd;
+}
+#tableBoss tr th table#idtb2 th {
+    background-color: black;
+    color: white;
+	
+}
+#tableBoss tr th table#idtb2 tr td {
+    text-align: center;
+}
+
+#boxBirthday,#boxFullName,#boxID,#boxEmail,#boxAddress,#boxClass,#boxMajor{
+	width:250px;
+	border:0;
+}
+#boxID{
+	
+}
